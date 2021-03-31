@@ -1,15 +1,15 @@
 # cmdr
 
-> A simple module to parse CLI arguments, flags and options.
+> A simple module to parse CLI arguments, flags and options for [Deno](https://deno.land).
 
-### Goals:
+### Goals
 
 - Simple to use
 - Easy configuration
 - Arguments validation (*todo*)
 - Auto-generated manual (*todo*)
 
-**NOTE:** expect it to break before `1.0.0` release.
+***NOTE:** expect it to break before `1.0.0` release.*
 
 ## Getting Started
 
@@ -72,27 +72,27 @@ if (match.question) {
 
 ```bash
 $ deno run ./main.ts -q "what do you want for dinner?" John Alice Joe
-Hello, John, Alice and Joe!
-Here's a question: what do you want for dinner?
+# Hello, John, Alice and Joe!
+# Here's a question: what do you want for dinner?
 ```
 
 ### Compiling the example
 
 ```bash
 $ deno compile --unstable --lite -o hello_world ./main.ts
-...
+# ...
 $ ./hello_world -q "what do you want for dinner?" John Alice Joe
-Hello, John, Alice and Joe!
-Here's a question: what do you want for dinner?
+# Hello, John, Alice and Joe!
+# Here's a question: what do you want for dinner?
 ```
 
 ## Contributing
 
 All contributions are very welcome!
 
-If you find any bug or have a feature request, please [open a new issue](/issues).
+If you find any bug or have a feature request, please [open a new issue](https://github.com/crqra/cmdr/issues).
 
-For code or documentation contributions, [fork this repository](), do your thing, and submit a [Pull Request]().
+For code or documentation contributions, [fork this repository](https://github.com/crqra/cmdr/fork), do your thing, and submit a [Pull Request](https://github.com/crqra/cmdr/pulls).
 
 ## License
 
